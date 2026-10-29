@@ -1,0 +1,43 @@
+maks@ubuntu-01:~$ dig example.com
+
+; <<>> DiG 9.20.24-1ubuntu0.4-Ubuntu <<>> example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23543
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;example.com.                   IN      A
+
+;; ANSWER SECTION:
+example.com.            43      IN      A       104.20.23.154
+example.com.            43      IN      A       172.66.147.243
+
+;; Query time: 15 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Thu Oct 29 18:16:17 UTC 2026
+;; MSG SIZE  rcvd: 72
+
+maks@ubuntu-01:~$ dig example.com
+
+; <<>> DiG 9.20.24-1ubuntu0.4-Ubuntu <<>> example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37307
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;example.com.                   IN      A
+
+;; ANSWER SECTION:
+example.com.            41      IN      A       104.20.23.154
+example.com.            41      IN      A       172.66.147.243
+
+;; Query time: 2 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Thu Oct 29 18:16:18 UTC 2026
+;; MSG SIZE  rcvd: 72
