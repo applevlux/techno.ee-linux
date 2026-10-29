@@ -11,7 +11,7 @@
 
 | Break Type | How | Diagnosis Command | Fix |
 |---|---|---|---|
-| Wrong nameserver IP	Set | DNS to invalid IP (e.g., 10.10.10.99) |	dig example.com → timeout |	Restore correct IP via nmcli/netplan |
+| Wrong nameserver IP	Set | DNS to invalid IP (e.g., 10.10.10.99) |	dig example.com -> timeout |	Restore correct IP via nmcli/netplan |
 |Unbound service down |	sudo systemctl stop unbound |	systemctl status unbound shows inactive |	sudo systemctl start unbound |
 |Firewall blocking port 53 |	sudo ufw deny 53/udp |	tcpdump shows no responses | sudo ufw allow 53/udp |
 
