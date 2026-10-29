@@ -1,0 +1,31 @@
+Oct 01 06:37:18 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 01 06:37:18 ubuntu-01 unattended-upgrade-shutdown[1193]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 01 06:37:18 ubuntu-01 unattended-upgrade-shutdown[1193]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+-- Boot f65f9d2bc82e4eba98813a4fd718e136 --
+Oct 02 06:04:15 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 02 06:04:16 ubuntu-01 unattended-upgrade-shutdown[1153]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 02 06:04:16 ubuntu-01 unattended-upgrade-shutdown[1153]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+-- Boot 79e3aaadfa784e3c8f647fa174f58be8 --
+Oct 02 06:24:51 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 02 06:24:51 ubuntu-01 unattended-upgrade-shutdown[1168]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 02 06:24:51 ubuntu-01 unattended-upgrade-shutdown[1168]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+-- Boot 61ede916464846b3be09175ae1041f95 --
+Oct 15 05:33:04 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 15 05:33:04 ubuntu-01 unattended-upgrade-shutdown[1174]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 15 05:33:04 ubuntu-01 unattended-upgrade-shutdown[1174]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+-- Boot a6de060e140841fd921a9099fc736345 --
+Oct 23 05:45:59 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 23 05:45:59 ubuntu-01 unattended-upgrade-shutdown[1147]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 23 05:45:59 ubuntu-01 unattended-upgrade-shutdown[1147]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+Oct 23 12:04:08 ubuntu-01 systemd[1]: unattended-upgrades.service: Deactivated successfully.
+-- Boot 09a1a2b3f0d84ebfa7267d38d30948b3 --
+Oct 29 10:05:55 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 29 10:05:55 ubuntu-01 unattended-upgrade-shutdown[1170]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 29 10:05:55 ubuntu-01 unattended-upgrade-shutdown[1170]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,
+Oct 29 17:15:52 ubuntu-01 systemd[1]: Stopping unattended-upgrades.service - Unattended Upgrades Shutdown...
+Oct 29 17:15:52 ubuntu-01 systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct 29 17:15:52 ubuntu-01 systemd[1]: Stopped unattended-upgrades.service - Unattended Upgrades Shutdown.
+-- Boot ee1c98529084482aad7463638ced9717 --
+Oct 29 18:48:23 ubuntu-01 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+Oct 29 18:48:23 ubuntu-01 unattended-upgrade-shutdown[1151]: /usr/share/unattended-upgrades/unattended-upgrade-shutdown:250: PyGIDeprecationWarning: GLib.unix_signal_add is deprecated; use GLibUnix.signal_add instead
+Oct 29 18:48:23 ubuntu-01 unattended-upgrade-shutdown[1151]:   GLib.unix_signal_add(GLib.PRIORITY_DEFAULT, sig,

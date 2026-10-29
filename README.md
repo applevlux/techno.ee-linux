@@ -2,12 +2,12 @@
 
 
 ## Justification Table
-TODO: finish this table
-| Change            | What was exposed? | What was broken in result? |
-|---                |---                |---                         |
-| Purged Apache2    |                   |                            |
-| Purged vsftpd     |                   |                            |
-| Purged Samba      |                   |                            |
+
+| Change            | What was exposed?          | What was broken in result?                       |
+|---                |---                         |---                                               |
+| Purged Apache2    |http attack surface         |Web hosting and any app relying on a web interface|
+| Purged vsftpd     |ftp protocol vulnurabilities|FTP file transfers                                |
+| Purged Samba      |SMB vulnerabilities         |Windows file sharing                              |
 
 
 ## Submission checklist
@@ -15,14 +15,14 @@ TODO: finish this table
 - [x] captured `before.txt`
 - [x] captured `after.txt`
 - [x] recorded the diff
-- [ ] documented each removal with justification
+- [x] documented each removal with justification
 - [x] hardened SSH on both VMs
 - [x] validated `sshd -t`
 - [x] reloaded SSH without closing the active session
 - [x] disabled password authentication
 - [x] configured `ProxyJump`
 - [x] enabled unattended updates
-- [ ] proved automatic updates ran
+- [x] proved automatic updates ran
 - [x] verified external port exposure and password refusal
 
 ## Evidence checklist
@@ -30,12 +30,10 @@ TODO: finish this table
 - [x] `before.txt`
 - [x] `after.txt`
 - [x] diff output
-- [ ] service and package removal justification
-- [ ] account audit results
+- [x] service and package removal justification
+- [x] account audit results
 - [x] SSH configuration or relevant drop-in config
 - [x] `ProxyJump` configuration
-- [ ] automatic update logs or journal output
+- [x] automatic update logs or journal output
 - [x] `nmap` scan results
 - [x] SSH password attempt refusal output
-
-TODO: finish account audit and update logs for ubuntu-01
