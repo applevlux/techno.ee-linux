@@ -1,0 +1,4 @@
+PS C:\Users\maks> ssh -o PreferredAuthentications=password router
+admin@192.168.56.102: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+PS C:\Users\maks> ssh -o PreferredAuthentications=password lan-b
+maks@10.10.10.20: Permission denied (publickey).

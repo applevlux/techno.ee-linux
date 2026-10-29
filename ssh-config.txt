@@ -1,0 +1,10 @@
+Host router
+    HostName 192.168.56.102
+    User admin
+    IdentityFile ~/.ssh/id_ed25519
+
+Host lan-b
+    HostName 10.10.10.20
+    User maks
+    IdentityFile ~/.ssh/id_ed25519
+    ProxyJump router
